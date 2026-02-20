@@ -1,0 +1,30 @@
+body{
+    background-image: url(image.jpeg);
+}
+.h1_1{
+    color: rgb(255, 255, 255);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.div1{
+    background-color: rgb(12, 121, 189);
+    border-radius: 8px;
+    width: 600px;
+    height: 100px;
+    text-align: center;
+    padding-top: 20px;
+    justify-self: center;
+    margin-top: 250px;    
+}
+.button1{
+    background-color: rgb(110, 198, 248);
+    width: 150px;
+    height: 50px;
+    border-radius: 9px;
+    color: rgb(0, 0, 0);
+    box-shadow: 3px 3px 3px 3px rgb(109, 109, 230);
+}
+.button1:hover{
+    transition: 0.2s;
+    cursor: pointer;
+    background-color: rgb(64, 150, 199) ;
+}

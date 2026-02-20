@@ -1,0 +1,185 @@
+.nav-Desktop{
+    background-color: rgb(53, 53, 195);
+    border-top: 0;
+    border-bottom: 5px solid black;
+    border-right: 0;
+    border-left: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 7px 7px 7px 7px;
+}
+.input1{
+    border-radius: 5.9px;
+    border: none    ;
+    height: 30px;
+    width: 230px;
+    padding: 10px 10px 10px 10px;
+}
+.div2{
+    display: flex;
+    gap: 220px;
+}
+.menu{
+    color: rgb(255, 255, 255);
+}
+.user{
+    color: white;
+}
+.friends{
+    color: white;
+}
+.user:hover{
+    transition: 0.2s;
+    cursor: pointer;
+    color: rgb(51, 51, 145);
+}
+.friends:hover{
+    transition: 0.2s;
+    cursor: pointer;
+    color: rgb(51, 51, 145);
+}
+.menu:hover{
+    cursor: pointer;
+    transition: 0.2s;
+    color: rgb(51, 51, 145);
+}
+
+@media (max-width: 768px){
+    .header-Desktop{
+        display: none;
+    }
+}
+.nav-Mobile{
+    background-color: rgb(53, 53, 195);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 100px;
+    padding: 10px 10px 10px 10px;
+}
+
+.menu-Mobile:hover{
+    cursor: pointer;
+    transition: 0.1s;
+    color: rgb(51, 51, 145);
+}
+.menu-Mobile{
+    color: white;
+}
+@media(min-width: 767px){
+    .nav-Mobile{
+        display: none;
+    }
+}
+.Button-Menu-List{
+    background-color: rgb(99, 255, 255);
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    border: none;
+}
+.Button-Menu-List:hover{
+    transition: 0.5s;
+    cursor: pointer;
+    background-color: rgb(29, 205, 205);
+}
+.ul-Menu{
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column;
+    margin-right: 30px;
+}
+.Button-profile{
+    background-color: rgb(57, 183, 183);
+    border-radius: 100px;
+    padding: 30px 30px 30px 30px;
+    border: none;
+}
+.Button-profile:hover{
+    transition: 0.4s;
+    background-color: rgb(99, 255, 255);
+    cursor: pointer;
+}
+.Menu{
+    background-color: rgb(90, 90, 224);
+    padding: 10px 10px 10px 10px;
+    border-radius: 24px;
+    padding: 10px 10px 10px 10px;
+    justify-self: right;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; /* عمودی */ 
+    align-items: center;
+    position: fixed; 
+    right: -400px; 
+    top: 70px;
+    transition: right 0.3s ease;
+}
+.Menu-profile{
+    text-align: center;
+    margin-top: 50px;
+}
+.Button-Menu-List-close{
+    background-color: rgb(53, 53, 195);
+    color: white;
+    border-radius: 6px;
+    padding: 7px 7px 7px 7px;
+    border: 2px solid rgb(140, 140, 201);
+}
+.Button-Menu-List-close:hover{
+    transition: 0.6s;
+    background-color: rgb(54, 54, 162);
+    cursor: pointer;
+}
+.search{
+    background-color: white;
+    border-radius: 7px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+}
+.search:hover{
+    transition: 0.4s;
+    background-color: rgb(90, 178, 255);
+    cursor: pointer;
+}
+.div-search{
+    background-color: blueviolet;
+    padding: 4px 4px 4px 4px;
+    width: 210px;
+    justify-self: center;
+    margin-right: 180px;
+    border-radius: 10px;
+}
+.users{
+    color: rgb(0, 0, 0);
+    background-color: aqua;
+    border-radius: 20000000px;
+    padding: 10px 10px 10px 10px;
+    border: none;
+}
+.users:hover{
+    transition: 0.2s;
+    cursor: pointer;
+    color: rgb(51, 51, 145);
+    transition: 0.1s;
+    border-radius: 7px;
+}
+.section-search{
+    display: flex;
+    gap: 60px;
+    background-color: blueviolet;
+    border-radius: 20px;
+    border-bottom: 2px solid black;
+}
+.section-search:hover{
+    transition: 0.4s;
+    background-color: rgb(49, 49, 225);
+    cursor: pointer;
+    border-radius: 3%;
+}
+.p-search{
+    font-family: Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,13 @@
+.section1{
+    background-color:   rgb(255, 255, 255);
+    height: 100px;
+}
+.users{
+    background-color: rgb(103, 139, 212);
+    border-radius: 10000000000000000px;
+    padding: 10px 10px 10px 10px;
+}
+.div-search{
+    background-color: blueviolet;
+    height: 100px;
+}
